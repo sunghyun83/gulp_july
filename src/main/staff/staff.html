@@ -1,0 +1,39 @@
+<section id="staff">
+    <div class="inner">
+        <h1>STAFF</h1>
+
+        <div class="tabBox">
+            <ul class="btns">
+                <li><a href="#tab1" class="on">button</a></li>
+                <li><a href="#tab2">button</a></li>
+                <li><a href="#tab3">button</a></li>
+            </ul>  
+
+            <!-- 탭박스는 절대 absloute로 배치하지않는다 -->
+            <div id="tab1" class="on">
+                <h2>Tab content1</h2>
+                <p></p>
+            </div>
+            <div id="tab2">
+                <h2>Tab content2</h2>
+                <p></p>
+            </div>
+            <div id="tab3">
+                <h2>Tab content3</h2>
+                <p></p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- 
+
+    tab메뉴 반응형 작업시 주의점
+    1. 버튼은 aboulte로 자유롭게 배치 
+    2. box는 무조건 absolute없이 relative로 세로로 쌓이도록 배치
+    3. 모둔 탭박스를 display:none;처리하고 클래스 on 이 붙었을때만 display:block
+    4. 모션 주기위해서는 탭박스에 클래스 on을 활용하여 transition으로 모션처리
+
+ -->
